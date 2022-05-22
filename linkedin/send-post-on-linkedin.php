@@ -3,8 +3,8 @@ require_once 'vendor/autoload.php';
 use GuzzleHttp\Client;
   
 $link = 'https://artisansweb.net/share-post-on-linkedin-using-linkedin-api-and-php';
-$access_token = 'YOUR_ACCESS_TOKEN';
-$linkedin_id = 'YOUR_LINKEDIN_ID';
+$access_token = 'AQXYzHB_i3QvrVqkHIp5qnXXZcMMpBK5yzKuPJuCGJfqMYlDhi6gMBFOED04arvKLH9svsNEBnAiDDr54Cy174CpjNOSllxDXJ9kGOfJElUz0KDRUfO-Z7J9S8U_gYzs0H9E9H4QZlLpxANA-qsInsfIX9HQjo-w0AUFvglhDQnWpA9FuMtYBEo93ciWJToqlvt2V5aLusngO04JRrozP2aSq75MNikzItatOyE_CzYcRn5fgnjZgaYZhm11HpGhj4-EC0GZGimVw1HF9uToCUVKowB0-XhsECD3R5STz0M3pkw-QKFHONSGG40RhiwRByycQ1sxVo-rEadzktuW8zEQmyfyZA';
+$linkedin_id = 'Bushra bibi';
 $body = new \stdClass();
 $body->content = new \stdClass();
 $body->content->contentEntities[0] = new \stdClass();
